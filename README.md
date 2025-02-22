@@ -13,3 +13,8 @@ Technologies Used 🛠️
 HTML – Structure of the web app
 CSS – Styling and layout
 JavaScript – Functional logic and interactivity
+
+👉 [[GitHub Repo Link] : - (https://github.com/23-shivamsingh/TODO_APP.git) ]
+🔗 Check it out here: [ (https://23-shivamsingh.github.io/TODO_APP/) ]
+
+#Development #JavaScript #WebDevelopment #TodoApp #GitHub
