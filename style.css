@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 120px auto 0 auto;
+    flex-direction: column;
+    max-width: 550px;
+}
+
+.status-container {
+    background-color: lightslategrey;
+    padding: 35px;
+    border-radius: 22px;
+    border: 2px solid white;
+    display: flex;
+    gap: 45px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.details {
+    width: 100%;
+}
+
+#progressBar{
+    background-color: linen;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#progress {
+    background-color: black;
+    width: 50%;
+    height: 10px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#numerbs {
+    background-color: lightsteelblue;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+form{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+input{
+    color: white;
+    background: black;
+    flex: 1;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 12px;
+    outline: none;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategrey;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    outline: none;
+}
+
+#task-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.taskItem {
+    display: flex;
+    background-color: lightslategrey;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.task input{
+    width: 20px;
+    height: 20px;
+}
+
+.completed p{
+    text-decoration: line-through;
+    color:rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5), 
+    0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.taskItem img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
